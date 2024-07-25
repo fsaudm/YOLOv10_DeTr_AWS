@@ -15,6 +15,6 @@ names:
 - fence
 - slogan
 nc: 15
-test: test/labels/
-train: train/labels/
-val: test/labels/
+test: ../test/images
+train: ../train/images
+val: ../test/images
