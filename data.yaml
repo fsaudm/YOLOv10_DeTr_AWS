@@ -1,0 +1,20 @@
+names:
+- person
+- vest
+- helmet
+- board
+- wood
+- rebar
+- brick
+- scaffold
+- handcart
+- cutter
+- ebox
+- hopper
+- hook
+- fence
+- slogan
+nc: 15
+test: test/labels/
+train: train/labels/
+val: test/labels/
