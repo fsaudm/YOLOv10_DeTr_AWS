@@ -7,3 +7,4 @@ This curated, "bite-sized" dataset for this project contains:
 - 1000 images with labels for training
 - 100 images with labels for testing
 
+The images are in .jpg format, and the labels have been transformed to .txt, but these were originally in .xml files (the corresponding files are included as well).
