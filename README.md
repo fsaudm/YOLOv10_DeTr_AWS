@@ -17,6 +17,7 @@ The best results for this model were achieved with the pretrained version `yolov
 ![Results](runs/detect/results_yolo10_pretrained/results.png)
 
 <br>
+
 For this model, the **normalized confusion matrix**:
 ![Confusion Matrix](runs/detect/results_yolo10_pretrained/confusion_matrix_normalized.png)
 
@@ -29,5 +30,6 @@ The best results for the DeTr were achieved with the pretrained version `rtdetr-
 
 
 <br>
+
 , and this is the **normalized confusion matrix**:
 ![Confusion Matrix](runs/detect/results_detr_pretrained/confusion_matrix_normalized.png)
