@@ -26,22 +26,22 @@ The images are in .jpg format, and the labels have been transformed to .txt, but
 
 ## **YOLOv10**
 The best results for this model were achieved with the pretrained version `yolov10n.pt`:
-![Results](IS597MLC-Final-Project/runs/detect/results_yolo10_pretrained/results.png)
+![Results](runs/detect/results_yolo10_pretrained/results.png)
 
 <br>
 
 For this model, the **normalized confusion matrix**:
-![Confusion Matrix](IS597MLC-Final-Project/runs/detect/results_yolo10_pretrained/confusion_matrix_normalized.png)
+![Confusion Matrix](runs/detect/results_yolo10_pretrained/confusion_matrix_normalized.png)
 
 
 <br>
 
 ## **DeTr**
 The best results for the DeTr were achieved with the pretrained version `rtdetr-l.pt`:
-![Results](IS597MLC-Final-Project/runs/detect/results_detr_pretrained/results.png)
+![Results](runs/detect/results_detr_pretrained/results.png)
 
 
 <br>
 
 , and this is the **normalized confusion matrix**:
-![Confusion Matrix](IS597MLC-Final-Project/runs/detect/results_detr_pretrained/confusion_matrix_normalized.png)
+![Confusion Matrix](runs/detect/results_detr_pretrained/confusion_matrix_normalized.png)
