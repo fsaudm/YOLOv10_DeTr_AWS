@@ -1,4 +1,4 @@
-# IS597MLC-Final-Project
+# Object Detection using YOLOv10 and RT-DeTr
 
 
 The dataset in this repo is a fraction of the original (much bigger) dataset: *SODA: A large-scale open site object detection dataset for deep learning in construction*, from Rui Duan, Hui Deng, Mao Tian, Yichuan Deng, Jiarui Lin. (https://www.sciencedirect.com/science/article/abs/pii/S0926580522003727)
