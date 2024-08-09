@@ -13,6 +13,11 @@ This curated, "bite-sized" dataset contains:
 - **Training set**: 1000 images with labels.
 - **Testing set**: 100 images with labels.
 
+The subset has the following distribution of labeled objects, bounding boxes dimensions and center coordinates:
+
+![labels](runs/detect/results_yolo10_L_pt/labels.jpg)
+
+
 The images are in `.jpg` format, and the labels have been transformed to `.txt` files, following the format expected by the YOLOv10 and RT-DeTr models. The original `.xml` label files are also included.
 
 ### Label Format
@@ -60,6 +65,15 @@ The performance of YOLOv10 and RT-DeTr was evaluated using various metrics, with
 | **Recall**    | 0.78887   | 0.89708   |
 | **Training Time** | 0.569 hours | 1.924 hours |
 | **Inference Speed** | 2.3ms per image | 15.1ms per image |
+
+<br> 
+To demonstrate that the models are capable of object detection, I present the following object detection examples
+
+**YOLOv10**
+![yolo_pred](pred_yolov10.jpg)
+
+**DeTr**
+![detr_pred](pred_detr.jpg)
 
 
 
