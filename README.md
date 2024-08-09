@@ -52,19 +52,24 @@ The performance of YOLOv10 and RT-DeTr was evaluated using various metrics, with
 | **Inference Speed** | 2.3ms per image | 15.1ms per image |
 
 <br> 
+
 The models are capable of object detection:
 
+<br>
 <br>
 
 **YOLOv10**
 ![yolo_pred](pred_yolov10.jpg)
+
 
 <br>
 
 **DeTr**
 ![detr_pred](pred_detr.jpg)
 
-The models are also capable of real-time detection. You can download and deploy the best checkpoints of these models from `runs/detect/results_yolo10_L_pt/weights/best.pt` and `runs/detect/results_detr_pretrained/weights/best.pt`
+<br>
+
+, and these are also capable of real-time detection. You can download and deploy the best checkpoints of these models from `runs/detect/results_yolo10_L_pt/weights/best.pt` and `runs/detect/results_detr_pretrained/weights/best.pt`
 
 
 ## Training
