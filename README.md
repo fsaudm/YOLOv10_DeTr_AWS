@@ -56,7 +56,6 @@ The performance of YOLOv10 and RT-DeTr was evaluated using various metrics, with
 The models are capable of object detection:
 
 <br>
-<br>
 
 **YOLOv10**
 ![yolo_pred](pred_yolov10.jpg)
@@ -71,6 +70,7 @@ The models are capable of object detection:
 
 , and these are also capable of real-time detection. You can download and deploy the best checkpoints of these models from `runs/detect/results_yolo10_L_pt/weights/best.pt` and `runs/detect/results_detr_pretrained/weights/best.pt`
 
+<br>
 
 ## Training
 
