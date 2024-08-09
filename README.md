@@ -34,21 +34,6 @@ The label files follow this format:
 - **width**: Normalized width of the bounding box.
 - **height**: Normalized height of the bounding box.
 
-## Results
-
-The performance of YOLOv10 and RT-DeTr was evaluated using various metrics, with the results summarized below:
-
-| Metric        | YOLOv10-n | RT-DeTr-l |
-|---------------|-----------|-----------|
-| **mAP50**     | 0.82427   | 0.9073    |
-| **mAP50-95**  | 0.51262   | 0.5854    |
-| **Precision** | 0.76006   | 0.86107   |
-| **Recall**    | 0.78887   | 0.89708   |
-| **Training Time** | 0.569 hours | 1.924 hours |
-| **Inference Speed** | 2.3ms per image | 15.1ms per image |
-
-
-
 
 
 <br>
@@ -67,17 +52,24 @@ The performance of YOLOv10 and RT-DeTr was evaluated using various metrics, with
 | **Inference Speed** | 2.3ms per image | 15.1ms per image |
 
 <br> 
-To demonstrate that the models are capable of object detection, I present the following object detection examples
+The models are capable of object detection:
+
+<br>
 
 **YOLOv10**
 ![yolo_pred](pred_yolov10.jpg)
 
+<br>
+
 **DeTr**
 ![detr_pred](pred_detr.jpg)
 
+The models are also capable of real-time detection. You can download and deploy the best checkpoints of these models from `runs/detect/results_yolo10_L_pt/weights/best.pt` and `runs/detect/results_detr_pretrained/weights/best.pt`
 
 
-## **YOLOv10**
+## Training
+
+### **YOLOv10**
 The best results for this model were achieved with the pretrained version `yolov10n.pt`:
 ![Results](runs/detect/results_yolo10_pretrained/results.png)
 
@@ -89,7 +81,7 @@ The **normalized confusion matrix** for YOLOv10:
 
 <br>
 
-## **DeTr**
+### **DeTr**
 The best results for the DeTr were achieved with the pretrained version `rtdetr-l.pt`:
 ![Results](runs/detect/results_detr_pretrained/results.png)
 
